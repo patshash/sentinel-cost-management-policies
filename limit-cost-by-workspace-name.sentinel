@@ -1,7 +1,6 @@
-# This policy uses the Sentinel tfrun import to restrict the
-# proposed monthly cost that would be incurred if the current
-# plan were applied, using different limits for different
-# workspaces based on their names.
+# This policy restricts the proposed monthly cost that would be 
+# incurred if the current plan were applied. 
+# Limits for different workspaces are based on their names.
 
 # Import common-functions/tfrun-functions/tfrun-functions.sentinel
 # with alias "run"
